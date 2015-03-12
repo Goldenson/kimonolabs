@@ -3,7 +3,6 @@ require "httparty"
 
 module Kimonolabs
   VERSION = "0.0.2"
-  # Your code goes here...
   include HTTParty
   base_uri "kimonolabs.com"
 
