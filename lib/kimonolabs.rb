@@ -2,7 +2,7 @@
 require "httparty"
 
 module Kimonolabs
-  VERSION = "0.0.1"
+  VERSION = "0.0.2"
   # Your code goes here...
   include HTTParty
   base_uri "kimonolabs.com"
@@ -12,11 +12,11 @@ module Kimonolabs
   end
 
   def self.brent
-  	get("/api/a5a6rymq?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["brent"]
+  	get("/api/c0y6dxlg?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["brent"]
   end
 
   def self.gold
-  	get("/api/aqb3i3q8?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["oncedor"]
+  	get("/api/b338nvme?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["oncedor"]
   end
 
 end
