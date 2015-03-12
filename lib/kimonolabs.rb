@@ -1,8 +1,7 @@
-# require "kimonolabs/version"
+require "kimonolabs/version"
 require "httparty"
 
 module Kimonolabs
-  VERSION = "0.0.2"
   include HTTParty
   base_uri "kimonolabs.com"
 
