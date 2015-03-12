@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["orefice.maxime@gmail.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = ""
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   end
 
   spec.summary       = %q{A ruby library for https://www.kimonolabs.com/.}
