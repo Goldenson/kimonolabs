@@ -14,7 +14,7 @@ module Kimonolabs
   end
 
   def self.gold
-  	get("/api/7acfik62?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["oncedor"]
+  	get("/api/b338nvme?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["oncedor"]
   end
 
 end
