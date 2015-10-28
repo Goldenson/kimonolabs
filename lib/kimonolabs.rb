@@ -6,7 +6,7 @@ module Kimonolabs
   base_uri "kimonolabs.com"
 
   def self.dollars
-  	get("/api/7bq23hf4?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["dollars"]
+  	get("/api/7acfik62?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["dollars"]
   end
 
   def self.brent
