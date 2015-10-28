@@ -5,7 +5,7 @@ module Kimonolabs
   include HTTParty
   base_uri "kimonolabs.com"
 
-  def self.dollars
+  def self.dollar
   	get("/api/7acfik62?apikey=HrRWAYocaxgrwCa2iEDchWNAGTZw10Vu").parsed_response["results"]["collection1"].first["dollars"]
   end
 
